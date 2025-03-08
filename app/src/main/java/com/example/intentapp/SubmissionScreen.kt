@@ -179,30 +179,6 @@ fun IntentDetail(modifier: Modifier = Modifier) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @Composable
     fun ImagePicker() {
         var imageUri by remember { mutableStateOf<Uri?>(null) }
